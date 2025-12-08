@@ -25,7 +25,8 @@ func InternalSearch(c *fiber.Ctx) error {
 
 	_, pds, _, oauthToken, err := GetAuthFromReq(c)
 	if err != nil {
-		return MissingAuth(c, err)
+		blankstring := "" // I. Hate. This.
+		oauthToken = &blankstring
 	}
 
 	// Pagination

@@ -208,19 +208,19 @@ func discovery(c *fiber.Ctx) error {
 				Type:  "news",
 				Score: 0.92,
 				Data: bridge.StoryData{
-					Title: "Thank you for using A Twitter Bridge!",
+					Title: "Thank you for using TwitterAPIBridge-andreiixe!",
 					Articles: []bridge.NewsArticle{
 						{
-							Title: "Thank you for using A Twitter Bridge!",
+							Title: "Thank you for using TwitterAPIBridge-andreiixe!",
 							Url: bridge.StoryURL{
-								DisplayURL:  "twb.preloading.dev",
-								ExpandedURL: "https://twb.preloading.dev",
+								DisplayURL:  "twapi.andreiixe.website",
+								ExpandedURL: "https://twapi.andreiixe.website",
 							},
 							TweetCount: 1500,
 							Media: []bridge.StoryMediaInfo{
 								{
 									Type:     "image", // ?
-									MediaURL: "https://raw.githubusercontent.com/Preloading/TwitterAPIBridge/refs/heads/main/resources/1.png",
+									MediaURL: "https://dl.andreiixe.website/Photos%20&%20Screenshots/bluetweety/bluetweety.png",
 									Width:    1920,
 									Height:   1080,
 								},
@@ -243,7 +243,7 @@ func discovery(c *fiber.Ctx) error {
 				Query: "Bluetweety",
 			},
 			{
-				Query: "A Twitter Bridge",
+				Query: "TwitterAPIBridge-andreiixe",
 			},
 		},
 		SpellingCorrections: []bridge.SpellingCorrection{},
